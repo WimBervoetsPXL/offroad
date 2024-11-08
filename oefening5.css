@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+h1, h2 {
+    font-family: "Saira", sans-serif;
+}
+/*i {*/
+/*    font-size: 2rem;*/
+/*    color: #E40515;*/
+/*}*/
+.delivery__container-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 75rem; /*1200px / 16 = 75*/
+    margin: 0 auto;
+    padding: 0.5rem 0;
+}
+.delivery__container-flex .free__text-red {
+    color: #E40515;
+    font-weight: bold;
+}
+nav {
+    background-color: #111111;
+    color: #FFFFFF;
+}
+.nav__container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75rem; /*1200px / 16 = 75*/
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+.nav__container-flex h1 {
+    font-size: 3rem;
+}
+.nav__container-flex .fa-bicycle {
+    color: #E40515;
+}
+.nav-items__container-flex {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+.navitem {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+.navitem:hover {
+    color: #E40515;
+}
+
+header {
+    background-image: url("assets/road.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__container-flex {
+    width: 75rem;
+    height: 25rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.header__title {
+    font-size: 5rem;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.5);
+    padding: 0.5rem;
+}
+.header__subtitle {
+    color: #E40515;
+    font-size: 1.5rem;
+    background-color: rgba(255,255,255,0.5);
+    padding: 0.5rem;
+}
+section {
+    width: 75rem;
+    margin: 3rem auto;
+}
+section h2 {
+    color: #E40515;
+    font-size: 2rem;
+}
+.newin__container {
+    display: flex;
+    flex-direction: column;
+}
+.newin__item {
+    display: flex;
+    margin: 2rem 0;
+}
+.newin__item img {
+    width: 100%;
+    flex: 1;
+    padding: 1rem;
+}
+.newin__iteminfo {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.newin__iteminfo h3 {
+    background-color: #2C2C2C;
+    color: white;
+    padding: 1rem;
+}
+.newin__iteminfo p {
+    margin: 1rem 0;
+}
+.newin__iteminfo ul {
+    list-style-position: inside;
+}
+.newin__iteminfo ul li {
+    margin: 1rem;
+}
+.sales__container-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.sales__item {
+
+}
+.sales__item img {
+    width: 100%;
+    padding: 1rem;
+}
+.sales__item h4 {
+    background-color: #2C2C2C;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
