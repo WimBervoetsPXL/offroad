@@ -138,3 +138,31 @@ section h2 {
     padding: 1rem;
     text-align: center;
 }
+footer {
+    background-color: #111111;
+    color: #FFFFFF;
+    padding: 2rem 0;
+    text-align: end;
+}
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75rem;
+    margin: 0 auto;
+}
+.footer__container h3 {
+    color: #E40515;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.footer__container p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.footer__container p a {
+    color: #FFFFFF;
+}
+.footer__container p a:hover {
+    color: #E40515;
+}
